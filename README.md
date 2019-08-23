@@ -12,7 +12,7 @@ In order to compile the program use these commands in UNIX shell terminals:
 
 ```
 git clone git@github.com:myousefi2016/Cahn-Hilliard-MPI.git
-cd Cahn-Hilliard-MPI && mkdir build
+cd Cahn-Hilliard-MPI && mkdir build && cd build
 cmake ..
 make
 ```
