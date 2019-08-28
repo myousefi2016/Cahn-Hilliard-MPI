@@ -28,4 +28,4 @@ where `#nprocs` is the number of processors available in your machine. And, `#de
 
 It will store the results in `out` directory as vtk files in parallel format. Good luck and if you use this piece of code for your research don't forget to give attribute to this github repository.
 
-![alt text](../animation/output.gif)
+![alt text](https://raw.githubusercontent.com/myousefi2016/Cahn-Hilliard-MPI/master/animation/out.gif)
