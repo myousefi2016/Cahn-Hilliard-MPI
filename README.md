@@ -8,6 +8,8 @@ Dependencies: OpenMPI 4.0.1, Intel Compiler 18.0, VTK 8.9, CMake 3.13.1
 
 Make sure VTK 8.9 is built with MPI enabled.
 
+It might be possible to compile this program with GCC compiler as well. Please create an issue if you encountered any error or unexpected behavior.
+
 In order to compile the program use these commands in UNIX shell terminals:
 
 ```
