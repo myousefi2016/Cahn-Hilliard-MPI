@@ -25,7 +25,7 @@ To run the program after compilation just running this command:
 mkdir out && mpirun -np #nprocs ./Cahn-Hilliard-MPI #decompX #decompY #decompZ
 ```
 
-where `#nprocs` is the number of processors available in your machine. And, `#decompX`, `#decompY`, `#decompZ` are the domain decomposition configuration in X, Y, Z directions respectively to create MPI topology.
+where `#nprocs` is the number of processors available in your machine. And, `#decompX`, `#decompY`, `#decompZ` are the domain decomposition configuration in X, Y, Z directions respectively to create MPI topology. Note that you need to make sure: `#nprocs = #decompX * #decompY * #decompZ`.
 
 
 It will store the results in `out` directory as vtk files in parallel format. Good luck and if you use this piece of code for your research don't forget to give attribute to this github repository.
